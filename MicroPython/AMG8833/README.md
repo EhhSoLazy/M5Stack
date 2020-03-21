@@ -15,4 +15,26 @@ Name       | Owner        | License | Info
 ------------- | -------------  |-------------|-------------
 [Seeed_AMG8833_Raspberry_Python-master](https://github.com/Seeed-Studio/Seeed_AMG8833_Raspberry_Python)| [Seeed Studio]( https://www.seeedstudio.com)| MIT| TODO: micropython translation
 amg8833.py | IoTNoob|MIT|First translation
-main.py|IotNoob|MIT|First try to run AMG8833
+main.py|IoTNoob|MIT|First try to run AMG8833
+
+# HW build
+
+TBA
+
+# Work Log
+
+## 21.03.2020
+
+Lib translated to use PortA from core unit
+
+Simple output on LCD
+
+![](gfx/Main_v1.gif)
+
+### Task list
+
+- [x] Init Git
+- [x] Translate AMG8833 lib to micropython
+- [ ] Create GUI on Core
+    - [X] Simple Txt debug on screen
+    - [ ] Full screen Temp GUI
