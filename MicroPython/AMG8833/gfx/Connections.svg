@@ -1,8 +1,5 @@
-<svg id="mermaid-1584818614079" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>
-
-
-
-#mermaid-1584818614079 .label {
+<svg width="447" height="231" xmlns="http://www.w3.org/2000/svg">
+ <style>#mermaid-1584818614079 .label {
   font-family: 'trebuchet ms', verdana, arial;
   font-family: var(--mermaid-font-family);
   color: #333; }
@@ -499,7 +496,58 @@
   --mermaid-font-family: '"trebuchet ms", verdana, arial';
   --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
 
-:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1584818614079 {
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style>
+ <style>#mermaid-1584818614079 {
     color: rgb(0, 0, 0);
     font: 16px "trebuchet ms", verdana, arial;
-  }</style><g></g><g><line id="actor594" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px;"><tspan x="75" dy="0">Core</tspan></text></g><g><line id="actor595" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px;"><tspan x="275" dy="0">AMG8833</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">PortA - i2C 0x68</text><line x1="75" y1="100" x2="275" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><rect x="270" y="102" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="172.5" y="128" class="messageText" style="text-anchor: middle;">sensor.read_temp()</text><line x1="270" y1="135" x2="75" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px;"><tspan x="75" dy="0">Core</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle; font-size: 14px;"><tspan x="275" dy="0">AMG8833</tspan></text></g></svg>
+  }</style>
+ <defs>
+  <marker orient="auto" markerHeight="4" markerWidth="6" refY="2" refX="5" id="arrowhead">
+   <path id="svg_1" d="m0,0l0,4l6,-2l-6,-2z"/>
+  </marker>
+ </defs>
+
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="233" width="449" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_5"/>
+  <g id="svg_6">
+   <line stroke="#999" stroke-width="0.5px" class="actor-line" y2="220" x2="75" y1="5" x1="75" id="actor594"/>
+   <rect id="svg_7" class="actor" ry="3" rx="3" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="0"/>
+   <text id="svg_8" text-anchor=" middle" class="actor" y="32.5" x="75">
+    <tspan id="svg_9" dy="0" x="75">Core</tspan>
+   </text>
+  </g>
+  <g id="svg_10">
+   <line stroke="#999" stroke-width="0.5px" class="actor-line" y2="220" x2="275" y1="5" x1="275" id="actor595"/>
+   <rect id="svg_11" class="actor" ry="3" rx="3" height="65" width="150" stroke="#666" fill="#eaeaea" y="0" x="200"/>
+   <text id="svg_12" text-anchor=" middle" class="actor" y="32.5" x="275">
+    <tspan id="svg_13" dy="0" x="275">AMG8833</tspan>
+   </text>
+  </g>
+  <g id="svg_14">
+   <text id="svg_15" text-anchor=" middle" class="messageText" y="93" x="175">PortA - i2C 0x68</text>
+   <line id="svg_16" fill=" none" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" class="messageLine0" y2="100" x2="275" y1="100" x1="75"/>
+  </g>
+  <g id="svg_19">
+   <text id="svg_20" text-anchor=" middle" class="messageText" y="128" x="172.5">sensor.read_temp()</text>
+   <line id="svg_21" stroke-dasharray=" 3, 3" marker-end="url(#arrowhead)" stroke="black" stroke-width="2" class="messageLine1" y2="135" x2="75" y1="135" x1="270"/>
+  </g>
+  <g id="svg_22">
+   <rect id="svg_23" class="actor" ry="3" rx="3" height="65" width="150" stroke="#666" fill="#eaeaea" y="155" x="0"/>
+   <text id="svg_24" text-anchor=" middle" class="actor" y="187.5" x="75">
+    <tspan id="svg_25" dy="0" x="75">Core</tspan>
+   </text>
+  </g>
+  <g id="svg_26">
+   <rect id="svg_27" class="actor" ry="3" rx="3" height="65" width="150" stroke="#666" fill="#eaeaea" y="155" x="200"/>
+   <text id="svg_28" text-anchor=" middle" class="actor" y="187.5" x="275">
+    <tspan id="svg_29" dy="0" x="275">AMG8833</tspan>
+   </text>
+  </g>
+ </g>
+</svg>
