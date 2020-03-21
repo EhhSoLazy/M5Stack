@@ -17,9 +17,9 @@ Name       | Owner        | License | Info
 amg8833.py | IoTNoob|MIT|First translation
 main.py|IoTNoob|MIT|First try to run AMG8833
 
-# HW build
-
-TBA
+### Hardware flow
+                    
+![](gfx/Connections.svg)
 
 # Work Log
 
