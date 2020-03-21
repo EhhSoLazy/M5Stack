@@ -11,6 +11,8 @@ HW       | FW info        | MicroPython | HW Version
 
 # Files
                     
-Name       | Owner        | License
-------------- | -------------  |-------------
-[Seeed_AMG8833_Raspberry_Python-master](https://github.com/Seeed-Studio/Seeed_AMG8833_Raspberry_Python)| [Seeed Studio]( https://www.seeedstudio.com)| MIT
+Name       | Owner        | License | Info
+------------- | -------------  |-------------|-------------
+[Seeed_AMG8833_Raspberry_Python-master](https://github.com/Seeed-Studio/Seeed_AMG8833_Raspberry_Python)| [Seeed Studio]( https://www.seeedstudio.com)| MIT| TODO: micropython translation
+amg8833.py | IoTNoob|MIT|First translation
+main.py|IotNoob|MIT|First try to run AMG8833
