@@ -27,6 +27,46 @@ p21 = M5TextBox(160, 60, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
 p22 = M5TextBox(200, 60, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
 p23 = M5TextBox(240, 60, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
 p24 = M5TextBox(280, 60, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p25 = M5TextBox(0, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p26 = M5TextBox(40, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p27 = M5TextBox(80, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p28 = M5TextBox(120, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p29 = M5TextBox(160, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p30 = M5TextBox(200, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p31 = M5TextBox(240, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p32 = M5TextBox(280, 90, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p33 = M5TextBox(0, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p34 = M5TextBox(40, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p35 = M5TextBox(80, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p36 = M5TextBox(120, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p37 = M5TextBox(160, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p38 = M5TextBox(200, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p39 = M5TextBox(240, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p40 = M5TextBox(280, 120, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p41 = M5TextBox(0, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p42 = M5TextBox(40, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p43 = M5TextBox(80, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p44 = M5TextBox(120, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p45 = M5TextBox(160, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p46 = M5TextBox(200, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p47 = M5TextBox(240, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p48 = M5TextBox(280, 150, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p49 = M5TextBox(0, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p50 = M5TextBox(40, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p51 = M5TextBox(80, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p52 = M5TextBox(120, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p53 = M5TextBox(160, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p54 = M5TextBox(200, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p55 = M5TextBox(240, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p56 = M5TextBox(280, 180, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p57 = M5TextBox(0, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p58 = M5TextBox(40, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p59 = M5TextBox(80, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p60 = M5TextBox(120, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p61 = M5TextBox(160, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p62 = M5TextBox(200, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p63 = M5TextBox(240, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
+p64 = M5TextBox(280, 210, "Text", lcd.FONT_Default,0xFFFFFF, rotate=0)
 pixel = None
 pixel_val = None
 pixels = None
@@ -34,57 +74,6 @@ pixels = None
 while True:
   sensor=amg88xx.AMG8833()
   pixels = sensor.read_temp()
-  pixel = 1
-  for count in range(64):
-    pixel_val = pixels[int(round(pixel) - 1)]
-    if pixel == 1:
-      p1.setText(str(pixel_val))
-    if pixel == 2:
-      p2.setText(str(pixel_val))
-    if pixel == 3:
-      p3.setText(str(pixel_val))
-    if pixel == 4:
-      p4.setText(str(pixel_val))
-    if pixel == 5:
-      p5.setText(str(pixel_val))
-    if pixel == 6:
-      p6.setText(str(pixel_val))
-    if pixel == 7:
-      p7.setText(str(pixel_val))
-    if pixel == 8:
-      p8.setText(str(pixel_val))
-    if pixel == 9:
-      p9.setText(str(pixel_val))
-    if pixel == 10:
-      p10.setText(str(pixel_val))
-    if pixel == 11:
-      p11.setText(str(pixel_val))
-    if pixel == 12:
-      p12.setText(str(pixel_val))
-    if pixel == 13:
-      p13.setText(str(pixel_val))
-    if pixel == 14:
-      p14.setText(str(pixel_val))
-    if pixel == 15:
-      p15.setText(str(pixel_val))
-    if pixel == 16:
-      p16.setText(str(pixel_val))
-    if pixel == 17:
-      p17.setText(str(pixel_val))
-    if pixel == 18:
-      p18.setText(str(pixel_val))
-    if pixel == 19:
-      p19.setText(str(pixel_val))
-    if pixel == 20:
-      p20.setText(str(pixel_val))
-    if pixel == 21:
-      p21.setText(str(pixel_val))
-    if pixel == 22:
-      p22.setText(str(pixel_val))
-    if pixel == 23:
-      p23.setText(str(pixel_val))
-    if pixel == 24:
-      p24.setText(str(pixel_val))
-    pixel = (pixel if isinstance(pixel, int) else 0) + 1
-  wait_ms(2)
-
+  set_text = lambda index, pixel: eval("p{pixel}.setText(str({pixel_val}))".format(pixel=index,pixel_val=int(round(pixel))))
+  [set_text(ind, x) for ind, x in enumerate(pixels) if ind > 0 and ind < 64]
+  wait_ms(1)
